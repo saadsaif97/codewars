@@ -10,5 +10,4 @@
 
 
 let getCount = str => (str.match(/[aeiou]/ig)||[]).length
-
-console.log(getCount("abracadabra"))
+console.log(getCount("abracadabra")) // 5
